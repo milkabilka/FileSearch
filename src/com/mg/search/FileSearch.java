@@ -127,7 +127,7 @@ public class FileSearch {
                     EOF=true;
                 }
                 for (int i=0; i < TWO_ON_SIXTEENTH; i++) {
-                    if (!IntsOfBucket.get(i)) return i;
+                    if (!IntsOfBucket.get(i)) return lowLimit+i;
                 }
             }
         }
